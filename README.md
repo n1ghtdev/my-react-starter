@@ -8,10 +8,19 @@ Every time you commit new changes `husky` runs `lint-staged` which configured to
 If you need other `eslint` configs or plugins, you can easily add those with `npm` or `yarn` and edit `.eslintrc.json` file. <br />
 Read more about [CRA: Extending the ESLint config](https://create-react-app.dev/docs/setting-up-your-editor/#experimental-extending-the-eslint-config).
 
+## Absolute imports
+Edit [tsconfig.json](./tsconfig.json) `paths` property to add more absolute import paths:
+```json
+  "paths": {
+    "@components/*": ["src/components/*"],
+    "@hooks/*": ["src/hooks/*"]
+  }
+```
+
 ## Future plans
 - [ ] TravisCI example configs
 - [ ] CSS styling guide (styled, emotion, css modules)
-- [ ] typescript path aliases
+
 
 ## Available Scripts
 
