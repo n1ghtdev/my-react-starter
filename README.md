@@ -17,8 +17,10 @@ Edit [tsconfig.json](./tsconfig.json) `paths` property to add more absolute impo
   }
 ```
 
+## TravisCI
+See [example.travis.yml](./example.travis.yml) for some examples.
+
 ## Future plans
-- [ ] TravisCI example configs
 - [ ] CSS styling guide (styled, emotion, css modules)
 
 
